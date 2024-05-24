@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(0, 122, 230);
+    background: linear-gradient(rgb(255, 0, 0), rgb(0, 0, 0));
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kk{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 33%;
+}
+.cabeza{
+    background-color: rgba(255, 255, 255, 0.589);
+    text-align: center;
+    color: black;
+}
+.fondoC {
+    color: white;
+}
+
+.imgC {
+    height: 60px;
+    border-radius: 40px;
+}
+
+#lista-personas {
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+.btnC{
+    border: groove;
+    background-color: rgba(255, 255, 254, 0.527);
+    width: 100%;
+    
+}
+.btnC:hover{
+    background-color: rgba(255, 0, 0, 0.37);
+    cursor: pointer;
+}
+.persona {
+    border-radius: 10%;
+    border: 1px solid;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 30%; 
+    box-sizing: border-box; 
+    margin-right: 2%; 
+    background-color: rgba(255, 255, 255, 0.589);
+    transition: transform 0.5s ease-in-out;
+
+}
+.persona:hover{
+    transform: scale(1.1);
+}
+.carta {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.carta:hover{
+    
+}
+.btnA{
+    color: green;
+    margin-left: 10%;
+    text-decoration: none;
+    background-color: rgba(0, 0, 255, 0);
+    border: none;
+    margin-right: 25%;
+    
+}
+.btnA:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.imgB{
+
+height: 30px;
+}
+.boton{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffffb4; 
+    color: white; 
+    cursor: pointer;
+}
+.dp {
+    margin-top: 10px;
+}
+/*formulario*/
+#formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#formulario input[type="text"],
+#formulario button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#formulario button {
+    background-color: #8e8e8ed0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#formulario button:hover {
+    background-color: #27b300;
+}
